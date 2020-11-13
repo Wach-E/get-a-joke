@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Jokes API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://i.pinimg.com/originals/2a/42/20/2a422034fee4e32bfdd27a72000fcb29.gif"
+                                    alt="This was meant to be a laughing emoji :-)">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <h1 class="card-header-title">
+                                Get A Joke With A Click!
+                            </h1>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <p id="contentHere"></p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="getJoke" class="button is-primary is-medium is-fullwidth">Get A
+                                Joke</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
